@@ -1,0 +1,12 @@
+{application, request_logger,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { request_logger_app, []}},
+  {env, []}
+ ]}.
